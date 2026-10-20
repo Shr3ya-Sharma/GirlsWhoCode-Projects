@@ -1,0 +1,186 @@
+/* STYLE SECTIONING TAGS */
+/*
+* {
+  margin: 0px;
+  padding: 0px;
+} >> I'm not a fan of this; so I've commented it out just as I did in the personal website project!
+*/
+
+body {
+  background-color: #f3f1e4;
+  color: #20382a;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0px;
+}
+
+header {
+  background-color: #173b28;
+  color: #f3f1e4;
+  text-align: center;
+  padding: 40px;
+  border-bottom: 5px solid #c9a64b;
+}
+
+main {
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  padding: 50px 20px;
+  border-bottom: 1px solid #a9bd9b;
+}
+
+footer {
+  background-color: #173b28;
+  color: #f3f1e4;
+  text-align: center;
+  padding: 30px;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #f3f1e4;
+  font-family: Georgia, serif;
+  font-size: 50px;
+}
+
+h2 {
+  color: #173b28;
+  font-family: Georgia, serif;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #356b45;
+  font-family: Georgia, serif;
+}
+
+p {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #a9bd9b;
+  font-family: "Courier New", monospace;
+}
+
+strong {
+  color: #356b45;
+}
+
+.field-note {
+  background-color: #a9bd9b;
+  border-left: 5px solid #356b45;
+  padding: 20px;
+  font-family: "Courier New", monospace;
+}
+
+.callout {
+  background-color: #173b28;
+  color: #f3f1e4;
+  border: 3px solid #c9a64b;
+  padding: 25px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* STYLE IMAGES */
+img {
+  width: 90%;
+  max-width: 850px;
+  display: block;
+  margin: 25px auto;
+  border: 4px solid #356b45;
+  border-radius: 5px;
+}
+
+/* STYLE NAV BAR */
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  color: #f3f1e4;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c9a64b;
+}
+
+/* STYLE LISTS */
+ul {
+  list-style-type: square;
+}
+
+ul, ol {
+  margin: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* STYLE INFORMATION BOXES */
+.animal {
+  background-color: #e1eadc;
+  border-left: 5px solid #356b45;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+/* STYLE BUTTONS */
+button {
+  background-color: #356b45;
+  color: white;
+  border: 2px solid #173b28;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #173b28;
+}
+
+/* ADD MORE! */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: 45%;
+  padding: 15px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px;
+  }
+
+  main {
+    width: 95%;
+  }
+}

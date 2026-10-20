@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personality Quiz Starter Code</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Would You Survive a Haunted Forest?</h1>
+		<p>You have wandered deep into a mysterious forest, and something tells you that you are not alone. 
+        </p>
+        <p>Answer the following questions to discover your fate.
+        </p>
+        <p>Choose the answer that best matches what you would do. There are no right or wrong answers, but choose with caution. Some decisions may help you escape... while others may leave you trapped in the forest forever. Good luck, traveller.</p>
+	</header>
+
+	<main>
+
+		<h2>You hear footsteps following you. What do you do?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/detective.png" alt="A detective with a bowler hat and suit crouching down to investigate a path to the right of a yello car, at night.">
+        <br>
+        <button id="q1a1">Turn around and set about to investigate.</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/tree.png" alt="A forest of trees with arched, bare, branches underneath a cloudy sky, and orange, mossy undergrowth.">
+        <br>
+        <button id="q1a2">Hide behind a tree and wait for it to pass.</button>
+      </div>
+
+    </div> 
+    
+    <h2>You discover an abandoned cabin with its lights still on. What do you do?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/cabin.png" alt="A cabin tucked underneath evergreen trees, ahead of a stony, uphill path, underneath a navy-blue night sky.">
+        <br>
+        <button id="q2a1">Go inside. Maybe someone needs help.</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/walking.png" alt="A forest underneath a gray night sky, with a rickety, bridge-like path.">
+        <br>
+        <button id="q2a2">Keep walking. Absolutely nothing good happens in haunted cabins.</button>
+      </div>
+
+    </div> 
+    
+    <h2>A ghost suddenly appears and offers you a deal: it will guide you out of the forest, but you must give it something in return.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/yesghosty.png" alt="A white ghost with an open mouth and outstretched hands.">
+        <br>
+        <button id="q3a1">Accept the deal. I need to get out of here.</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/running.png" alt="A shadow runnning forwards in a forest with tall trees, underneath a hazy, blue-green atmosphere.">
+        <br>
+        <button id="q3a2">Refuse. I do NOT make deals with ghosts.</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">Your result is...</h2>
+    <button id="restart">Restart</button>
+    
+  </main>
+  </body>
+</html>
